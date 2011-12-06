@@ -18,8 +18,7 @@ by easy_install or any other way.
 
 Use
 =======
-Edit src_dir and dst_dir in exec.py file.
-Run `./watch.sh <path_to_dir_to_watch>`
+Run `./watch.sh <path_to_dir_to_watch> <src_dir> <dst_dir>`
 
 Script works in verbose mode, to turn it off remove `v` option from `subprocess.call` in exec.py.
 
@@ -37,5 +36,6 @@ You should find proper name of `watchmedo` executable (it comes with python `wat
 TODO
 ======
  * Join watch.sh and exec.py into one .py
+ * Join watch_dir and src_dir ?
  * Other OS'es
  * Rsync optimizations
