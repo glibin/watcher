@@ -33,3 +33,7 @@ There can be some troubles running watch.sh:
 `./watch.sh: line 3: watchmedo-2.7: command not found`
 
 You should find proper name of `watchmedo` executable (it comes with python `watchdog` package). 
+
+TODO
+======
+Join watch.sh and exec.py into one .py
