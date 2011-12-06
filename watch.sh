@@ -6,5 +6,5 @@ then
 	exit 65
 fi
 
-watchmedo-2.7 shell-command --command='./exec.py' $1
+watchmedo shell-command --command='./exec.py' $1
 
