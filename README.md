@@ -29,9 +29,9 @@ If you want to exclude some files from `rsync` you should add them to `exclude.t
 Troubleshooting
 ======
 There can be some troubles running watch.sh:
-`./watch.sh: line 3: watchmedo-2.7: command not found`
+`./watch.sh: line 3: watchmedo: command not found`
 
-You should find proper name of `watchmedo` executable (it comes with python `watchdog` package). 
+You should find proper name of `watchmedo` executable (it comes with Python `watchdog` package) or install it. 
 
 TODO
 ======
