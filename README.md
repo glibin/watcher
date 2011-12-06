@@ -36,4 +36,4 @@ You should find proper name of `watchmedo` executable (it comes with python `wat
 
 TODO
 ======
-Join watch.sh and exec.py into one .py
+ * Join watch.sh and exec.py into one .py
