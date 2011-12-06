@@ -24,3 +24,10 @@ Run `./watch.sh <path_to_dir_to_watch>`
 Script works in verbose mode, to turn it off remove `v` option from `subprocess.call` in exec.py.
 
 Be carefull for running it first time. Maybe you should first get data from remote and watch it after (you could just interchange src_dir and dst_dir).
+
+Troubleshooting
+======
+There can be some troubles running watch.sh:
+`./watch.sh: line 3: watchmedo-2.7: command not found`
+
+You should find proper name of `watchmedo` executable (it comes with python `watchdog` package). 
