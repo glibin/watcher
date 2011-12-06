@@ -8,8 +8,10 @@ Installation
 =======
 
 Install python modules:
+
 	watchdog
 	tendo
+
 by easy_install or any other way.
 
 Use
