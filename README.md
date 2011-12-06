@@ -2,6 +2,8 @@ Watcher
 =======
 Script for watching file changes in directory and rsync them.
 
+The history of this script starts from that PyCharm work very slow with SSH remotes and mounted drives (by sshfs).
+
 Now tested only in Mac OS X Lion.
 
 Installation
