@@ -25,6 +25,8 @@ Script works in verbose mode, to turn it off remove `v` option from `subprocess.
 
 Be carefull for running it first time. Maybe you should first get data from remote and watch it after (you could just interchange src_dir and dst_dir).
 
+If you want to exclude some files from `rsync` you should add them to `exclude.txt` file.
+
 Troubleshooting
 ======
 There can be some troubles running watch.sh:
