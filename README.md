@@ -1,6 +1,6 @@
 Watcher
 =======
-Script for watching file changes in directory and rsync them.
+Script for watching file changes in directory and rsync it.
 
 The history of this script starts from that PyCharm work very slow with SSH remotes and mounted drives (by sshfs).
 
@@ -38,3 +38,4 @@ TODO
 ======
  * Join watch.sh and exec.py into one .py
  * Other OS'es
+ * Rsync optimizations
