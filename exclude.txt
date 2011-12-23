@@ -1,3 +1,6 @@
 .DS_Store
 *target
 *_pages*
+*js.pack.xml*
+*jsx.core.*
+*.core.js
